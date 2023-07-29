@@ -1,0 +1,43 @@
+/* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.header-bg {
+  background-image: linear-gradient(to left, #0066ff45, #ffffff);
+}
+
+.icon-row {
+  display: flex;
+  justify-content: left;
+}
+
+.icon-row i {
+  margin: 0;
+  font-size: 24px;
+  padding: 8px;
+}
+
+.container {
+  overflow-y: auto;
+}
+
+.slide-in {
+  opacity: 0;
+}
+
+.slide-in-animation {
+  animation: slide-in 1s ease-out forwards;
+}
+
+@keyframes slide-in {
+  to {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
